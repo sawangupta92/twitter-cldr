@@ -212,7 +212,7 @@
     OkRpZ2l0BzsGWwA6EEBxdWFudGlmaWVybzouVHdpdHRlckNsZHI6OlV0aWxz
     OjpSZWdleHBBc3Q6OlF1YW50aWZpZXIHOglAbWF4aQs6CUBtaW5pCzsIMA==
 :ca:
-  :regex: !ruby/regexp /[ABCEGHJKLMNPRSTVXY]\d[ABCEGHJ-NPRSTV-Z][ ]?\d[ABCEGHJ-NPRSTV-Z]\d/
+  :regex: !ruby/regexp /[ABCEGHJKLMNPRSTVXY]\d[ABCEGHJ-NPRSTV-Z][ ]\d[ABCEGHJ-NPRSTV-Z]\d/
   :ast: |
     BAhvOihUd2l0dGVyQ2xkcjo6VXRpbHM6OlJlZ2V4cEFzdDo6Um9vdAc6EUBl
     eHByZXNzaW9uc1sMbzowVHdpdHRlckNsZHI6OlV0aWxzOjpSZWdleHBBc3Q6
