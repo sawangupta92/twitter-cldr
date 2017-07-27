@@ -1,0 +1,651 @@
+--- 
+:af: 
+  :currencies: 
+    :AED: 
+      :one: "Verenigde Arabiese Emirate dirham"
+      :other: "Verenigde Arabiese Emirate dirham"
+      :symbol: AED
+    :AFN: 
+      :one: "Afgaanse afgani"
+      :other: "Afgaanse afgani"
+      :symbol: AFN
+    :ALL: 
+      :one: "Albanese lek"
+      :other: "Albanese lek"
+      :symbol: ALL
+    :AMD: 
+      :one: "Armeense dram"
+      :other: "Armeense dram"
+      :symbol: AMD
+    :ANG: 
+      :one: "Nederlands-Antilliaanse gulde"
+      :other: "Nederlands-Antilliaanse gulde"
+      :symbol: ANG
+    :AOA: 
+      :one: "Angolese kwanza"
+      :other: "Angolese kwanza"
+      :symbol: AOA
+    :ARS: 
+      :one: "Argentynse peso"
+      :other: "Argentynse peso"
+      :symbol: ARS
+    :AUD: 
+      :one: "Australiese dollar"
+      :other: "Australiese dollar"
+      :symbol: A$
+    :AWG: 
+      :one: "Arubaanse floryn"
+      :other: "Arubaanse floryn"
+      :symbol: AWG
+    :AZN: 
+      :one: "Azerbeidjaanse manat"
+      :other: "Azerbeidjaanse manat"
+      :symbol: AZN
+    :BAM: 
+      :one: "Bosnies-Herzegowiniese omskakelbare marka"
+      :other: "Bosnies-Herzegowiniese omskakelbare marka"
+      :symbol: BAM
+    :BBD: 
+      :one: Barbados-dollar
+      :other: Barbados-dollar
+      :symbol: BBD
+    :BDT: 
+      :one: "Bangladesjiese taka"
+      :other: "Bangladesjiese taka"
+      :symbol: BDT
+    :BGN: 
+      :one: "Bulgaarse lev"
+      :other: "Bulgaarse lev"
+      :symbol: BGN
+    :BHD: 
+      :one: "Bahreinse dinar"
+      :other: "Bahreinse dinar"
+      :symbol: BHD
+    :BIF: 
+      :one: "Burundiese frank"
+      :other: "Burundiese frank"
+      :symbol: BIF
+    :BMD: 
+      :one: Bermuda-dollar
+      :other: Bermuda-dollar
+      :symbol: BMD
+    :BND: 
+      :one: "Broeneise dollar"
+      :other: "Broeneise dollar"
+      :symbol: BND
+    :BOB: 
+      :one: "Boliviaanse boliviano"
+      :other: "Boliviaanse boliviano"
+      :symbol: BOB
+    :BRL: 
+      :one: "Brasillianse reaal"
+      :other: "Brasillianse reaal"
+      :symbol: R$
+    :BSD: 
+      :one: "Bahamiaanse dollar"
+      :other: "Bahamiaanse dollar"
+      :symbol: BSD
+    :BTN: 
+      :one: "Bhoetanese ngoeltroem"
+      :other: "Bhoetanese ngoeltroem"
+      :symbol: BTN
+    :BWP: 
+      :one: "Botswana pula"
+      :other: "Botswana pula"
+      :symbol: BWP
+    :BYR: 
+      :one: "Belo-Russiese roebel"
+      :other: "Belo-Russiese roebel"
+      :symbol: BYR
+    :BZD: 
+      :one: "Beliziese dollar"
+      :other: "Beliziese dollar"
+      :symbol: BZD
+    :CAD: 
+      :one: "Kanadese dollar"
+      :other: "Kanadese dollar"
+      :symbol: CA$
+    :CDF: 
+      :one: "Kongolese frank"
+      :other: "Kongolese frank"
+      :symbol: CDF
+    :CHF: 
+      :one: "Switserse frank"
+      :other: "Switserse frank"
+      :symbol: CHF
+    :CLP: 
+      :one: "Chileense peso"
+      :other: "Chileense peso"
+      :symbol: CLP
+    :CNY: 
+      :one: "Sjinese joean renminbi"
+      :other: "Sjinese joean renminbi"
+      :symbol: CN¥
+    :COP: 
+      :one: "Colombiaanse peso"
+      :other: "Colombiaanse peso"
+      :symbol: COP
+    :CRC: 
+      :one: "Costa Ricaanse colón"
+      :other: "Costa Ricaanse colón"
+      :symbol: CRC
+    :CUC: 
+      :one: "Kubaanse omskakelbare peso"
+      :other: "Kubaanse omskakelbare peso"
+      :symbol: CUC
+    :CUP: 
+      :one: "Kubaanse peso"
+      :other: "Kubaanse peso"
+      :symbol: CUP
+    :CVE: 
+      :one: "Kaap Verdiese escudo"
+      :other: "Kaap Verdiese escudo"
+      :symbol: CVE
+    :CZK: 
+      :one: "Tsjeggiese kroon"
+      :other: "Tsjeggiese kroon"
+      :symbol: CZK
+    :DJF: 
+      :one: "Djiboeti frank"
+      :other: "Djiboeti frank"
+      :symbol: DJF
+    :DKK: 
+      :one: "Deense kroon"
+      :other: "Deense kroon"
+      :symbol: DKK
+    :DOP: 
+      :one: "Dominikaanse peso"
+      :other: "Dominikaanse peso"
+      :symbol: DOP
+    :DZD: 
+      :one: "Algeriese dinar"
+      :other: "Algeriese dinar"
+      :symbol: DZD
+    :EGP: 
+      :one: "Egiptiese pond"
+      :other: "Egiptiese pond"
+      :symbol: EGP
+    :ERN: 
+      :one: "Eritrese nakfa"
+      :other: "Eritrese nakfa"
+      :symbol: ERN
+    :ESP: 
+      :symbol: ₧
+    :ETB: 
+      :one: "Etiopiese birr"
+      :other: "Etiopiese birr"
+      :symbol: ETB
+    :EUR: 
+      :one: euro
+      :other: euro
+      :symbol: €
+    :FJD: 
+      :one: "Fidjiaanse dollar"
+      :other: "Fidjiaanse dollar"
+      :symbol: FJD
+    :FKP: 
+      :one: "Falkland-eilande pond"
+      :other: "Falkland-eilande pond"
+      :symbol: FKP
+    :GBP: 
+      :one: "Britse pond"
+      :other: "Britse pond"
+      :symbol: £
+    :GEL: 
+      :one: "Georgiese lari"
+      :other: "Georgiese lari"
+      :symbol: GEL
+    :GHC: 
+      :one: "Ghanese cedi (1979–2007)"
+    :GHS: 
+      :one: "Ghanese cedi"
+      :other: "Ghanese cedi"
+      :symbol: GHS
+    :GIP: 
+      :one: "Gibraltarese pond"
+      :other: "Gibraltarese pond"
+      :symbol: GIP
+    :GMD: 
+      :one: "Gambiese dalasi"
+      :other: "Gambiese dalasi"
+      :symbol: GMD
+    :GNF: 
+      :one: "Guinese frank"
+      :other: "Guinese frank"
+      :symbol: GNF
+    :GNS: 
+      :one: "Guinese syli"
+    :GTQ: 
+      :one: "Guatemalaanse quetzal"
+      :other: "Guatemalaanse quetzal"
+      :symbol: GTQ
+    :GYD: 
+      :one: "Guyanese dollar"
+      :other: "Guyanese dollar"
+      :symbol: GYD
+    :HKD: 
+      :one: "Hong Kong dollar"
+      :other: "Hong Kong dollar"
+      :symbol: HK$
+    :HNL: 
+      :one: "Hondurese lempira"
+      :other: "Hondurese lempira"
+      :symbol: HNL
+    :HRK: 
+      :one: "Kroatiese kuna"
+      :other: "Kroatiese kuna"
+      :symbol: HRK
+    :HTG: 
+      :one: "Haïtiaanse gourde"
+      :other: "Haïtiaanse gourde"
+      :symbol: HTG
+    :HUF: 
+      :one: "Hongaarse florint"
+      :other: "Hongaarse florint"
+      :symbol: HUF
+    :IDR: 
+      :one: "Indonesiese roepia"
+      :other: "Indonesiese roepia"
+      :symbol: IDR
+    :ILS: 
+      :one: "Israeliese nuwe sikkel"
+      :other: "Israeliese nuwe sikkel"
+      :symbol: ₪
+    :INR: 
+      :one: "Indiese rupee"
+      :other: "Indiese rupee"
+      :symbol: ₹
+    :IQD: 
+      :one: "Irakse dinar"
+      :other: "Irakse dinar"
+      :symbol: IQD
+    :IRR: 
+      :one: "Iranse rial"
+      :other: "Iranse rial"
+      :symbol: IRR
+    :ISK: 
+      :one: "Yslandse kroon"
+      :other: "Yslandse kroon"
+      :symbol: ISK
+    :ITL: 
+      :one: "Italiaanse lier"
+    :JMD: 
+      :one: "Jamaikaanse dollar"
+      :other: "Jamaikaanse dollar"
+      :symbol: JMD
+    :JOD: 
+      :one: "Jordaniese dinar"
+      :other: "Jordaniese dinar"
+      :symbol: JOD
+    :JPY: 
+      :one: "Japannese jen"
+      :other: "Japannese jen"
+      :symbol: JP¥
+    :KES: 
+      :one: "Keniaanse sjieling"
+      :other: "Keniaanse sjieling"
+      :symbol: KES
+    :KGS: 
+      :one: "Kirgisiese som"
+      :other: "Kirgisiese som"
+      :symbol: KGS
+    :KHR: 
+      :one: "Kambodjaanse riel"
+      :other: "Kambodjaanse riel"
+      :symbol: KHR
+    :KMF: 
+      :one: "Comoraanse frank"
+      :other: "Comoraanse frank"
+      :symbol: KMF
+    :KPW: 
+      :one: "Noord-Koreaanse won"
+      :other: "Noord-Koreaanse won"
+      :symbol: KPW
+    :KRW: 
+      :one: "Suid-Koreaanse won"
+      :other: "Suid-Koreaanse won"
+      :symbol: ₩
+    :KWD: 
+      :one: "Koeweitse dinar"
+      :other: "Koeweitse dinar"
+      :symbol: KWD
+    :KYD: 
+      :one: "Cayman-eilande dollar"
+      :other: "Cayman-eilande dollar"
+      :symbol: KYD
+    :KZT: 
+      :one: "Kazakse tenge"
+      :other: "Kazakse tenge"
+      :symbol: KZT
+    :LAK: 
+      :one: "Laosiaanse kip"
+      :other: "Laosiaanse kip"
+      :symbol: LAK
+    :LBP: 
+      :one: "Lebanese pond"
+      :other: "Lebanese pond"
+      :symbol: LBP
+    :LKR: 
+      :one: "Sri Lankaanse roepee"
+      :other: "Sri Lankaanse roepee"
+      :symbol: LKR
+    :LRD: 
+      :one: "Liberiese dollar"
+      :other: "Liberiese dollar"
+      :symbol: LRD
+    :LSL: 
+      :one: "Lesotho loti"
+    :LTL: 
+      :one: "Litause litas"
+      :other: "Litause litas"
+      :symbol: LTL
+    :LVL: 
+      :one: "Lettiese lats"
+      :symbol: Ls
+    :LYD: 
+      :one: "Libiese dinar"
+      :other: "Libiese dinar"
+      :symbol: LYD
+    :MAD: 
+      :one: "Marokkaanse dirham"
+      :other: "Marokkaanse dirham"
+      :symbol: MAD
+    :MDL: 
+      :one: "Moldowiese leu"
+      :other: "Moldowiese leu"
+      :symbol: MDL
+    :MGA: 
+      :one: "Malgassiese ariary"
+      :other: "Malgassiese ariary"
+      :symbol: MGA
+    :MKD: 
+      :one: "Macedoniese denar"
+      :other: "Macedoniese denar"
+      :symbol: MKD
+    :MMK: 
+      :one: "Mianmese kyat"
+      :other: "Mianmese kyat"
+      :symbol: MMK
+    :MNT: 
+      :one: "Mongoolse toegrik"
+      :other: "Mongoolse toegrik"
+      :symbol: MNT
+    :MOP: 
+      :one: "Macaose pataca"
+      :other: "Macaose pataca"
+      :symbol: MOP
+    :MRO: 
+      :one: "Mauritaniese ouguiya"
+      :other: "Mauritaniese ouguiya"
+      :symbol: MRO
+    :MUR: 
+      :one: "Mauritiaanse rupee"
+      :other: "Mauritiaanse rupee"
+      :symbol: MUR
+    :MVR: 
+      :one: "Malediviese rufia"
+      :other: "Malediviese rufia"
+      :symbol: MVR
+    :MWK: 
+      :one: "Malawiese kwacha"
+      :other: "Malawiese kwacha"
+      :symbol: MWK
+    :MXN: 
+      :one: "Meksikaanse peso"
+      :other: "Meksikaanse peso"
+      :symbol: MXN
+    :MYR: 
+      :one: "Maleisiese ringgit"
+      :other: "Maleisiese ringgit"
+      :symbol: MYR
+    :MZM: 
+      :one: "Mosambiekse metical (1980–2006)"
+    :MZN: 
+      :one: "Mosambiekse metical"
+      :other: "Mosambiekse metical"
+      :symbol: MZN
+    :NAD: 
+      :one: "Namibiese dollar"
+      :other: "Namibiese dollar"
+      :symbol: NAD
+    :NGN: 
+      :one: "Nigeriese naira"
+      :other: "Nigeriese naira"
+      :symbol: NGN
+    :NIO: 
+      :one: "Nicaraguaanse córdoba"
+      :other: "Nicaraguaanse córdoba"
+      :symbol: NIO
+    :NOK: 
+      :one: "Noorse kroon"
+      :other: "Noorse kroon"
+      :symbol: NOK
+    :NPR: 
+      :one: "Nepalese roepee"
+      :other: "Nepalese roepee"
+      :symbol: NPR
+    :NZD: 
+      :one: "Nieu-Seeland dollar"
+      :other: "Nieu-Seeland dollar"
+      :symbol: NZ$
+    :OMR: 
+      :one: "Omaanse rial"
+      :other: "Omaanse rial"
+      :symbol: OMR
+    :PAB: 
+      :one: "Panamese balboa"
+      :other: "Panamese balboa"
+      :symbol: PAB
+    :PEN: 
+      :one: "Peruaanse nuwe sol"
+      :other: "Peruaanse nuwe sol"
+      :symbol: PEN
+    :PGK: 
+      :one: "Papoea-Nieu-Guinese kina"
+      :other: "Papoea-Nieu-Guinese kina"
+      :symbol: PGK
+    :PHP: 
+      :one: "Filippynse peso"
+      :other: "Filippynse peso"
+      :symbol: PHP
+    :PKR: 
+      :one: "Pakistanse roepee"
+      :other: "Pakistanse roepee"
+      :symbol: PKR
+    :PLN: 
+      :one: "Poolse zloty"
+      :other: "Poolse zloty"
+      :symbol: PLN
+    :PYG: 
+      :one: "Paraguaanse guarani"
+      :other: "Paraguaanse guarani"
+      :symbol: PYG
+    :QAR: 
+      :one: "Katarese rial"
+      :other: "Katarese rial"
+      :symbol: QAR
+    :RON: 
+      :one: "Roemeense leu"
+      :other: "Roemeense leu"
+      :symbol: RON
+    :RSD: 
+      :one: "Serbiese dinar"
+      :other: "Serbiese dinar"
+      :symbol: RSD
+    :RUB: 
+      :one: "Russiese roebel"
+      :other: "Russiese roebel"
+      :symbol: RUB
+    :RUR: 
+      :symbol: р.
+    :RWF: 
+      :one: "Rwandiese frank"
+      :other: "Rwandiese frank"
+      :symbol: RWF
+    :SAR: 
+      :one: "Saoedi-Arabiese riyal"
+      :other: "Saoedi-Arabiese riyal"
+      :symbol: SAR
+    :SBD: 
+      :one: "Salomonseilande dollar"
+      :other: "Salomonseilande dollar"
+      :symbol: SBD
+    :SCR: 
+      :one: "Seychellese rupee"
+      :other: "Seychellese rupee"
+      :symbol: SCR
+    :SDG: 
+      :one: "Soedannese pond"
+      :other: "Soedannese pond"
+      :symbol: SDG
+    :SDP: 
+      :one: "Soedannese pond (1957–1998)"
+    :SEK: 
+      :one: "Sweedse kroon"
+      :other: "Sweedse kroon"
+      :symbol: SEK
+    :SGD: 
+      :one: "Singapoer dollar"
+      :other: "Singapoer dollar"
+      :symbol: SGD
+    :SHP: 
+      :one: "Sint Helena pond"
+      :other: "Sint Helena pond"
+      :symbol: SHP
+    :SLL: 
+      :one: "Sierra Leoniese leone"
+      :other: "Sierra Leoniese leone"
+      :symbol: SLL
+    :SOS: 
+      :one: "Somaliese sjieling"
+      :other: "Somaliese sjieling"
+      :symbol: SOS
+    :SRD: 
+      :one: "Surinaamse dollar"
+      :other: "Surinaamse dollar"
+      :symbol: SRD
+    :SSP: 
+      :one: "Suid-Soedanese pond"
+      :other: "Suid-Soedanese pond"
+      :symbol: SSP
+    :STD: 
+      :one: "São Tomé en Príncipe dobra"
+      :other: "São Tomé en Príncipe dobra"
+      :symbol: STD
+    :SYP: 
+      :one: "Siriese pond"
+      :other: "Siriese pond"
+      :symbol: SYP
+    :SZL: 
+      :one: "Swazilandse lilangeni"
+      :other: "Swazilandse lilangeni"
+      :symbol: SZL
+    :THB: 
+      :one: "Thaise baht"
+      :other: "Thaise baht"
+      :symbol: ฿
+    :TJS: 
+      :one: "Tadjikse roebel"
+      :other: "Tadjikse roebel"
+      :symbol: TJS
+    :TMT: 
+      :one: "Turkmeense manat"
+      :other: "Turkmeense manat"
+      :symbol: TMT
+    :TND: 
+      :one: "Tunisiese dinar"
+      :other: "Tunisiese dinar"
+      :symbol: TND
+    :TOP: 
+      :one: "Tongaanse pa’anga"
+      :other: "Tongaanse pa’anga"
+      :symbol: TOP
+    :TRL: 
+      :one: "Turkse lier (1922–2005)"
+    :TRY: 
+      :one: "Turkse lier"
+      :other: "Turkse lier"
+      :symbol: TRY
+    :TTD: 
+      :one: "Trinidad en Tobago dollar"
+      :other: "Trinidad en Tobago dollar"
+      :symbol: TTD
+    :TWD: 
+      :one: "Nuwe Taiwanese dollar"
+      :other: "Nuwe Taiwanese dollar"
+      :symbol: NT$
+    :TZS: 
+      :one: "Tanzaniese sjieling"
+      :other: "Tanzaniese sjieling"
+      :symbol: TZS
+    :UAH: 
+      :one: "Oekraïnse hriwna"
+      :other: "Oekraïnse hriwna"
+      :symbol: UAH
+    :UGX: 
+      :one: "Ugandese sjieling"
+      :other: "Ugandese sjieling"
+      :symbol: UGX
+    :USD: 
+      :one: "Amerikaanse dollar"
+      :other: "Amerikaanse dollar"
+      :symbol: US$
+    :UYU: 
+      :one: "Uruguaanse peso"
+      :other: "Uruguaanse peso"
+      :symbol: UYU
+    :UZS: 
+      :one: "Oezbekiese som"
+      :other: "Oezbekiese som"
+      :symbol: UZS
+    :VEF: 
+      :one: "Venezolaanse bolivar"
+      :other: "Venezolaanse bolivar"
+      :symbol: VEF
+    :VND: 
+      :one: "Viëtnamese dong"
+      :other: "Viëtnamese dong"
+      :symbol: ₫
+    :VUV: 
+      :one: "Vanuatuse vatu"
+      :other: "Vanuatuse vatu"
+      :symbol: VUV
+    :WST: 
+      :one: "Samoaanse tala"
+      :other: "Samoaanse tala"
+      :symbol: WST
+    :XAF: 
+      :one: "CFA frank BEAC"
+      :other: "CFA frank BEAC"
+      :symbol: FCFA
+    :XCD: 
+      :one: "Oos-Karibbiese dollar"
+      :other: "Oos-Karibbiese dollar"
+      :symbol: EC$
+    :XOF: 
+      :one: "CFA frank BCEAO"
+      :other: "CFA frank BCEAO"
+      :symbol: CFA
+    :XPF: 
+      :one: CFP-frank
+      :other: CFP-frank
+      :symbol: CFPF
+    :XXX: 
+      :one: "(onbekende geldeenheid)"
+      :other: "(onbekende geldeenheid)"
+    :YER: 
+      :one: "Jemenitiese rial"
+      :other: "Jemenitiese rial"
+      :symbol: YER
+    :ZAR: 
+      :one: "Suid-Afrikaanse rand"
+      :other: "Suid-Afrikaanse rand"
+      :symbol: R
+    :ZMK: 
+      :one: "Zambiese kwacha (1968–2012)"
+    :ZMW: 
+      :one: "Zambiese kwacha"
+      :other: "Zambiese kwacha"
+      :symbol: ZMW
+    :ZWD: 
+      :one: "Zimbabwiese dollar"

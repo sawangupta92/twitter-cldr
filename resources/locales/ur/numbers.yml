@@ -1,0 +1,135 @@
+--- 
+:ur: 
+  :numbers: 
+    :formats: 
+      :currency: 
+        :number_system: latn
+        :patterns: 
+          :default: "¤ #,##,##0.00"
+        :unit: 
+          :one: "{0} {1}"
+          :other: "{0} {1}"
+      :decimal: 
+        :number_system: latn
+        :patterns: 
+          :default: "#,##0.###"
+          :long: 
+            ? !ruby/symbol "1000"
+            : 
+              :one: "0 ہزار"
+              :other: "0 ہزار"
+            ? !ruby/symbol "10000"
+            : 
+              :one: "00 ہزار"
+              :other: "00 ہزار"
+            ? !ruby/symbol "100000"
+            : 
+              :one: "0 لاکھ"
+              :other: "0 لاکھ"
+            ? !ruby/symbol "1000000"
+            : 
+              :one: "00 لاکھ"
+              :other: "00 لاکھ"
+            ? !ruby/symbol "10000000"
+            : 
+              :one: "0 کروڑ"
+              :other: "0 کروڑ"
+            ? !ruby/symbol "100000000"
+            : 
+              :one: "00 کروڑ"
+              :other: "00 کروڑ"
+            ? !ruby/symbol "1000000000"
+            : 
+              :one: "0 ارب"
+              :other: "0 ارب"
+            ? !ruby/symbol "10000000000"
+            : 
+              :one: "00 ارب"
+              :other: "00 ارب"
+            ? !ruby/symbol "100000000000"
+            : 
+              :one: "0 کھرب"
+              :other: "0 کھرب"
+            ? !ruby/symbol "1000000000000"
+            : 
+              :one: "00 کھرب"
+              :other: "00 کھرب"
+            ? !ruby/symbol "10000000000000"
+            : 
+              :one: "00 ٹریلین"
+              :other: "00 ٹریلین"
+            ? !ruby/symbol "100000000000000"
+            : 
+              :one: "000 ٹریلین"
+              :other: "000 ٹریلین"
+          :short: 
+            ? !ruby/symbol "1000"
+            : 
+              :one: 0 ہزار
+              :other: 0 ہزار
+            ? !ruby/symbol "10000"
+            : 
+              :one: 00 ہزار
+              :other: 00 ہزار
+            ? !ruby/symbol "100000"
+            : 
+              :one: 0 لاکھ
+              :other: 0 لاکھ
+            ? !ruby/symbol "1000000"
+            : 
+              :one: 00 لاکھ
+              :other: 00 لاکھ
+            ? !ruby/symbol "10000000"
+            : 
+              :one: 0 کروڑ
+              :other: 0 کروڑ
+            ? !ruby/symbol "100000000"
+            : 
+              :one: 00 کروڑ
+              :other: 00 کروڑ
+            ? !ruby/symbol "1000000000"
+            : 
+              :one: 0 ارب
+              :other: 0 ارب
+            ? !ruby/symbol "10000000000"
+            : 
+              :one: 00 ارب
+              :other: 00 ارب
+            ? !ruby/symbol "100000000000"
+            : 
+              :one: 0 کھرب
+              :other: 0 کھرب
+            ? !ruby/symbol "1000000000000"
+            : 
+              :one: 00 کھرب
+              :other: 00 کھرب
+            ? !ruby/symbol "10000000000000"
+            : 
+              :one: 00 ٹریلین
+              :other: 00 ٹریلین
+            ? !ruby/symbol "100000000000000"
+            : 
+              :one: 000 ٹریلین
+              :other: 000 ٹریلین
+      :percent: 
+        :number_system: latn
+        :patterns: 
+          :default: "#,##,##0%"
+      :scientific: 
+        :number_system: latn
+        :patterns: 
+          :default: "#E0"
+    :symbols: 
+      :alias: ""
+      :decimal: "."
+      :exponential: E
+      :group: ","
+      :infinity: ∞
+      :list: ;
+      :minus_sign: ‎-
+      :nan: NaN
+      :per_mille: ‰
+      :percent_sign: "%"
+      :plus_sign: ‎+
+      :superscripting_exponent: ×
+      :time_separator: ":"
